@@ -1132,16 +1132,6 @@
       "constConstructor": null
     }
   },
-  "ON_WEB_WORKER": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ON_WEB_WORKER",
-      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
   "ObservableStrategy": {
     "kind": "type",
     "value": {
@@ -3515,6 +3505,16 @@
       "lifecycleHooks": [],
       "template": null,
       "providers": []
+    }
+  },
+  "ON_WEB_WORKER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ON_WEB_WORKER",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/api.dart",
+      "prefix": null,
+      "constConstructor": null
     }
   },
   "RenderStore": {
@@ -6179,6 +6179,35 @@
       "constConstructor": null
     }
   },
+  "WebWorkerXHRImpl": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "WebWorkerXHRImpl",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/worker/xhr_impl.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ClientMessageBrokerFactory",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
   "WebWorkerRootRenderer": {
     "kind": "type",
     "value": {
@@ -6272,35 +6301,6 @@
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/renderer.dart",
       "prefix": null,
       "constConstructor": null
-    }
-  },
-  "WebWorkerXHRImpl": {
-    "kind": "type",
-    "value": {
-      "class": "Type",
-      "name": "WebWorkerXHRImpl",
-      "moduleUrl": "asset:angular2/lib/src/web_workers/worker/xhr_impl.dart",
-      "prefix": null,
-      "isHost": false,
-      "constConstructor": null,
-      "diDeps": [
-        {
-          "token": {
-            "class": "Identifier",
-            "name": "ClientMessageBrokerFactory",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null
-          },
-          "query": null,
-          "viewQuery": null,
-          "isAttribute": false,
-          "isSelf": false,
-          "isHost": false,
-          "isSkipSelf": false,
-          "isOptional": false
-        }
-      ]
     }
   },
   "WORKER_APP_PLATFORM": {

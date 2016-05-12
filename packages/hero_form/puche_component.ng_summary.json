@@ -24,7 +24,7 @@
               },
               {
                 "1": "template",
-                "2": "'''\r\n      <h4>Puche Comp: {{texto}}</h4>\r\n    '''"
+                "2": "'''\r\n      <h4>Test Comp: {{texto}}</h4>\r\n    '''"
               },
               {
                 "1": "inputs",
@@ -80,7 +80,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "      <h4>Puche Comp: {{texto}}</h4>\r\n    ",
+        "template": "      <h4>Test Comp: {{texto}}</h4>\r\n    ",
         "templateUrl": "asset:hero_form/lib/puche_component.dart",
         "styles": [],
         "styleUrls": [],

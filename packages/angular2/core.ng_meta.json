@@ -318,36 +318,6 @@
       "constConstructor": null
     }
   },
-  "PLATFORM_COMMON_PROVIDERS": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "PLATFORM_COMMON_PROVIDERS",
-      "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PLATFORM_DIRECTIVES": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "PLATFORM_DIRECTIVES",
-      "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PLATFORM_PIPES": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "PLATFORM_PIPES",
-      "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
   "keyValDiff": {
     "kind": "type",
     "value": {
@@ -1823,6 +1793,36 @@
       "constConstructor": null
     }
   },
+  "PLATFORM_COMMON_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_COMMON_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PLATFORM_DIRECTIVES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_DIRECTIVES",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PLATFORM_PIPES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_PIPES",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "LifecycleHooks": {
     "kind": "type",
     "value": {
@@ -2223,6 +2223,61 @@
       "constConstructor": null
     }
   },
+  "Testability": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Testability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "TestabilityRegistry": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TestabilityRegistry",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "GetTestability": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "GetTestability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_NoopGetTestability": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_NoopGetTestability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "Directive": {
     "kind": "type",
     "value": {
@@ -2533,61 +2588,6 @@
       "constConstructor": null
     }
   },
-  "Testability": {
-    "kind": "type",
-    "value": {
-      "class": "Type",
-      "name": "Testability",
-      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
-      "prefix": null,
-      "isHost": false,
-      "constConstructor": null,
-      "diDeps": [
-        {
-          "token": null,
-          "query": null,
-          "viewQuery": null,
-          "isAttribute": false,
-          "isSelf": false,
-          "isHost": false,
-          "isSkipSelf": false,
-          "isOptional": false
-        }
-      ]
-    }
-  },
-  "TestabilityRegistry": {
-    "kind": "type",
-    "value": {
-      "class": "Type",
-      "name": "TestabilityRegistry",
-      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
-      "prefix": null,
-      "isHost": false,
-      "constConstructor": null,
-      "diDeps": []
-    }
-  },
-  "GetTestability": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "GetTestability",
-      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_NoopGetTestability": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "_NoopGetTestability",
-      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
   "IS_DART": {
     "kind": "type",
     "value": {
@@ -2724,6 +2724,56 @@
       "class": "Identifier",
       "name": "DateWrapper",
       "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RenderComponentType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderComponentType",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RenderDebugInfo": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderDebugInfo",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParentRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParentRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Renderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Renderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RootRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
       "prefix": null,
       "constConstructor": null
     }
@@ -3188,26 +3238,6 @@
       "constConstructor": null
     }
   },
-  "BaseException": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "BaseException",
-      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "WrappedException": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "WrappedException",
-      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
   "Predicate": {
     "kind": "type",
     "value": {
@@ -3278,52 +3308,42 @@
       "constConstructor": null
     }
   },
-  "RenderComponentType": {
+  "BaseException": {
     "kind": "type",
     "value": {
       "class": "Identifier",
-      "name": "RenderComponentType",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "name": "BaseException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
       "constConstructor": null
     }
   },
-  "RenderDebugInfo": {
+  "WrappedException": {
     "kind": "type",
     "value": {
       "class": "Identifier",
-      "name": "RenderDebugInfo",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "name": "WrappedException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
       "constConstructor": null
     }
   },
-  "ParentRenderer": {
+  "_ArrayLogger": {
     "kind": "type",
     "value": {
       "class": "Identifier",
-      "name": "ParentRenderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "name": "_ArrayLogger",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
       "constConstructor": null
     }
   },
-  "Renderer": {
+  "ExceptionHandler": {
     "kind": "type",
     "value": {
       "class": "Identifier",
-      "name": "Renderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RootRenderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RootRenderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "name": "ExceptionHandler",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
       "constConstructor": null
     }
@@ -3454,26 +3474,6 @@
       "class": "Identifier",
       "name": "NgZoneImpl",
       "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_ArrayLogger": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "_ArrayLogger",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ExceptionHandler": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ExceptionHandler",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
       "constConstructor": null
     }
