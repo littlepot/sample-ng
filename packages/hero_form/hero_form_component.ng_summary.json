@@ -1,0 +1,100 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "hero.dart",
+        "5": false
+      },
+      {
+        "1": "puche_component.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HeroFormComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'hero-form'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'hero_form_component.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [PucheComponent]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "PucheComponent"
+          }
+        ]
+      }
+    ],
+    "6": "hero_form_component.dart"
+  },
+  "_powers": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_powers",
+      "moduleUrl": "asset:hero_form/lib/hero_form_component.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HeroFormComponent": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "hero-form",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "HeroFormComponent",
+        "moduleUrl": "asset:hero_form/lib/hero_form_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"container\">\r\n  <div [hidden]=\"submitted\">\r\n    <h1>Hero Form</h1>\r\n    <form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\r\n      <div class=\"form-group\">\r\n        <label for=\"name\">Name</label>\r\n        <input type=\"text\" class=\"form-control\" required\r\n               [(ngModel)]=\"model.name\"\r\n               ngControl=\"name\" #name=\"ngForm\" >\r\n        <div [hidden]=\"name.valid\" class=\"alert alert-danger\">\r\n          Name is required\r\n        </div>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"alterEgo\">Alter Ego</label>\r\n        <input type=\"text\" class=\"form-control\"\r\n               [(ngModel)]=\"model.alterEgo\"\r\n               ngControl=\"alterEgo\" >\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"power\">Hero Power</label>\r\n        <select class=\"form-control\" required\r\n                [(ngModel)]=\"model.power\"\r\n                ngControl=\"power\" >\r\n          <option *ngFor=\"#p of powers\" [value]=\"p\">{{p}}</option>\r\n        </select>\r\n      </div>\r\n      <button type=\"submit\" class=\"btn btn-default\"\r\n              [disabled]=\"!heroForm.form.valid\">Submit</button>\r\n    </form>\r\n  </div>\r\n  <puche [texto]='\"Hola desde una instancia del componente puche.\"'></puche>\r\n  <puche [texto]=\"'Hola desde una segunda instancia.'\"></puche>\r\n  <div [hidden]=\"!submitted\">\r\n    <h2>You submitted the following hero:</h2>\r\n    <div class=\"row\">\r\n      <div class=\"col-xs-3\">Name</div>\r\n      <div class=\"col-xs-9  pull-left\">{{ model.name }}</div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-xs-3\">Alter Ego</div>\r\n      <div class=\"col-xs-9 pull-left\">{{ model.alterEgo }}</div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-xs-3\">Power</div>\r\n      <div class=\"col-xs-9 pull-left\">{{ model.power }}</div>\r\n    </div>\r\n    <br>\r\n    <button class=\"btn btn-default\" (click)=\"submitted=false\">Edit</button>\r\n  </div>\r\n</div>\r\n",
+        "templateUrl": "asset:hero_form/lib/hero_form_component.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": []
+    }
+  },
+  "definesAlias": false
+}

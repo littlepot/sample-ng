@@ -1,0 +1,103 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "hero.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "PucheComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'puche'"
+              },
+              {
+                "1": "template",
+                "2": "'''\r\n      <h4>Puche Comp: {{texto}}</h4>\r\n    '''"
+              },
+              {
+                "1": "inputs",
+                "2": "const ['texto']"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "puche_component.dart",
+    "10": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "hero.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "_powers": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_powers",
+      "moduleUrl": "asset:hero_form/lib/puche_component.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PucheComponent": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "puche",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "PucheComponent",
+        "moduleUrl": "asset:hero_form/lib/puche_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "texto": "texto"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "      <h4>Puche Comp: {{texto}}</h4>\r\n    ",
+        "templateUrl": "asset:hero_form/lib/puche_component.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": []
+    }
+  },
+  "definesAlias": false
+}

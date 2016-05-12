@@ -1,0 +1,95 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.compiler.static_reflector",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "ListWrapper",
+          "StringMapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isArray",
+          "isBlank",
+          "isNumber",
+          "isPresent",
+          "isPrimitive",
+          "isString",
+          "Type"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata.dart",
+        "2": [
+          "AttributeMetadata",
+          "DirectiveMetadata",
+          "ComponentMetadata",
+          "ContentChildrenMetadata",
+          "ContentChildMetadata",
+          "InputMetadata",
+          "HostBindingMetadata",
+          "HostListenerMetadata",
+          "OutputMetadata",
+          "PipeMetadata",
+          "ViewMetadata",
+          "ViewChildMetadata",
+          "ViewChildrenMetadata",
+          "ViewQueryMetadata",
+          "QueryMetadata"
+        ],
+        "5": false
+      }
+    ],
+    "6": "static_reflector.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/core/metadata.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "StaticReflectorHost": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StaticReflectorHost",
+      "moduleUrl": "asset:angular2/lib/src/compiler/static_reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StaticType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StaticType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/static_reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StaticReflector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StaticReflector",
+      "moduleUrl": "asset:angular2/lib/src/compiler/static_reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}
